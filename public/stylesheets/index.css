@@ -1,0 +1,60 @@
+/* Todos los elementos HTML usarán la fuente "Open Sans", sans-serif */
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* El elemento body sin margen y sin relleno */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* El elemento header tendrá una imagen de fondo */
+
+header {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    display: grid;
+    grid-template-areas: "area1 area1 area1 area1 area1"
+                         "area2 area3 area3 area3 area3 ";
+    /*height: 400px;*/
+}
+
+#titulo{
+    grid-area: area1;
+    justify-content: space-around;
+}
+
+#descripcion{
+    grid-area: area2;
+}
+
+#libros{
+    grid-area: area3;
+}
+
+.espaciado{
+    margin-right: 2px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    list-style-type: none;
+}
+
+h1 {
+    padding-top: 15%;
+}
+
+#secciongaleria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+}
