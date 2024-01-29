@@ -31,6 +31,7 @@ header {
 
 #descripcion{
     grid-area: area2;
+    /*width: 600px;*/
 }
 
 #libros{
@@ -38,7 +39,7 @@ header {
 }
 
 .espaciado{
-    margin-right: 2px;
+    margin-right: 20px;
 }
 
 nav ul{
@@ -47,14 +48,31 @@ nav ul{
     justify-content: space-around;
     text-align: center;
     list-style-type: none;
+    background-color: brown;    
 }
 
 h1 {
-    padding-top: 15%;
+    padding-top: 10%;
 }
 
 #secciongaleria{
     display: flex;
     flex-direction: row;
     justify-content: space-around ;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+
+.menu a:hover{
+    background-color: white;
+    color: black;
+}
+
+.menu a.activo{
+    background-color: white;
+    color: black;
 }
