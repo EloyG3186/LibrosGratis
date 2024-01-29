@@ -21,7 +21,6 @@ header {
     display: grid;
     grid-template-areas: "area1 area1 area1 area1 area1"
                          "area2 area3 area3 area3 area3 ";
-    /*height: 400px;*/
 }
 
 #titulo{
@@ -31,7 +30,6 @@ header {
 
 #descripcion{
     grid-area: area2;
-    /*width: 600px;*/
 }
 
 #libros{
@@ -67,6 +65,10 @@ nav a{
     padding: 0 10px;
 }
 
+nav{
+    margin: 0;
+}
+
 .menu a:hover{
     background-color: white;
     color: black;
@@ -75,4 +77,8 @@ nav a{
 .menu a.activo{
     background-color: white;
     color: black;
+}
+
+.menu ul{
+    margin: 0;
 }
