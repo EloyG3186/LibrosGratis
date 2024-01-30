@@ -29,8 +29,10 @@ body {
 .HeadContent {
     position: relative;
     display: grid;
+    align-items:flex-end;
     grid-template-areas: "area1 area1 area1 area1 area1"
         "area2 area3 area4 area5 area6 ";
+        
 }
 
 .HeadImage {

@@ -11,7 +11,81 @@ body {
     padding: 0;
 }
 
-.TamañoImg{
+.TamañoImg {
     width: 140px;
     height: 200px;
+    flex: 0 0 100px;
+}
+
+.GridPrincipal {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 7%;
+    grid-row-gap: 0px;
+    justify-content: space-around;
+}
+
+h1 {
+    display: block;
+    font-size: 1.4em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+H2{
+    display: block;
+    font-size: 1.1em;
+    margin-block-start: 0.4em;
+    margin-block-end: 0.4em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.columna1{
+    margin: 60px;
+}
+
+.columna2{
+    text-align: justify;
+    margin: 20%;
+    width: 450px;
+    height: 600px;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.columna3{
+    display: flex;
+    flex-direction: column; 
+    border-left: red 3px solid;
+    align-items: center;
+    margin: 30px 20px;
+}
+
+.ImagenLateral {
+    flex: 0 0 100px;
+
+}
+
+#publicacion {
+    text-align: right;
+}
+
+.ImgContenedor{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+
+
+#DescContenido {
+    text-align: justify;
 }
